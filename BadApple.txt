@@ -1,7 +1,7 @@
 ; construct constant table
 	lda #$02 ;display pointer
 	sta $03
-	lda #$b7; video pointer - MAGIC NUMBER
+	lda #$c3; video pointer - MAGIC NUMBER
 	sta $00
 	lda #$06 ; data page
 	sta $01
